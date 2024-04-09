@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Equal Drip - Smart Watering</title>
+
+<style>
+.title {
+  text-align: center;
+  padding: 20px; 
+}
+
+.title h1 {
+  margin: 0;
+  color: #333;
+  font-size: 24px; 
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block; 
+}
+
+body, html {
+	height: 100%;
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	height: 100%;
+	margin: 0 auto; 
+	padding: 10px;
+}
+.logo {
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+h1 {
+	color: #333;
+	font-size: 24px;
+	margin-top: 20px;
+}
+.button {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 8px; 
+}
+.button:hover {
+	background-color: #45a049;
+}
+
+@media only screen and (max-width: 768px) {
+	h1 {
+		font-size: 20px;
+	}
+	.button {
+		padding: 12px 24px; 
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 375px) {
+	h1 {
+		font-size: 18px;
+	}
+}
+</style>
+</head>
+<body>
+    <div class="title">
+        <h1>Equal Drip</h1>
+    </div>
+
+<div class="container">
+    <img src="img/intro.png" alt="Equal Drip Logo" class="logo">
+    <a href="#" class="button">Get Started</a>
+</div>
+
+<script>
+document.querySelector('.button').addEventListener('click', function() {
+	window.location.href = 'signup.html'; 
+});
+</script>
+
+</body>
+</html>
