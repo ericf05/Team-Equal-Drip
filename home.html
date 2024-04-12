@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Watering System - Home</title>
+<style>
+body, html {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+.header {
+  display: flex;
+  font-size: small;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #f8f8f8;
+}
+
+.header-title {
+  flex-grow: 1;
+  text-align: center;
+  font-weight: bold; 
+  margin: 0; 
+}
+
+.back-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.main-content {
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.interval, .plants, .next-watering, .water-level {
+  margin-bottom: 20px; 
+}
+
+.interval h3, .plants h3, .next-watering h3, .water-level h3 {
+  margin-bottom: 0.5em;
+}
+
+.nav-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #f8f8f8;
+  box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+  padding: 10px 0;
+}
+
+.nav-icon {
+  display: block;
+  margin: 0 auto;
+  width: 35px; 
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+    <a href="signup.html" class="back-button">
+        <img src="img/home/back.png" alt="Back">
+    </a>
+  <h1 class="header-title">Watering Schedule</h1>
+</div>
+
+<div class="main-content">
+  <div class="interval">
+    <h3>Interval</h3>
+    <p>Every 3 days <img src="img/home/Edit.png" alt="Edit"></p>
+  </div>
+  <div class="plants">
+    <h3>Plants</h3>
+    <div class="plant">
+      <img src="img/home/Monstera.png" alt="Monstera" class="plant-image">
+      <span>Monstera - In the living room <img src="img/home/Edit.png" alt="Edit"></span>
+    </div>
+  </div>
+  <div class="next-watering">
+    <h3>Next watering</h3>
+    <div>
+      <img src="img/home/Snakeplant.png" alt="Snake Plant" class="plant-image">
+      <span>Snake plant - in 1d 16h</span>
+    </div>
+  </div>
+  <div class="water-level">
+    <h3>Water level</h3>
+    <span><img src="img/home/Waterdrip.png" alt="Water Level" class="icon"> Reservoir - Good</span>
+  </div>
+</div>
+
+<div class="nav-bar">
+  <img src="img/home/home.png" alt="Home" class="nav-icon">
+  <img src="img/home/Schedule.png" alt="Schedule" class="nav-icon">
+  <img src="img/home/profile.png" alt="Profile" class="nav-icon">
+</div>
+
+</body>
+</html>
