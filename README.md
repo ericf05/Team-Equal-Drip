@@ -9,3 +9,9 @@ A community feature allows users to share tips, seek advice on plant care, and s
 
 The app can also include a knowledge base with information on different types of plants, their specific care requirements, and tips for indoor gardening. This is especially useful for beginners or those looking to expand their indoor garden.
 
+# Continuations
+For those that want to continue working on this project, you will need to create a MongoDB account and change the necessary code in sensor_loop.py. Depending on what sensors you choose for a Raspberry Pi, the code for each sensor might need to be altered when connecting via GPIO pins.
+
+We wanted to expand this project to connect to a water tank, and use a solenoid valve to autowater the plant according to the moisture percentage. Another idea we had was to use ESP32's connected physically to the sensors and then connect wirelessly to the Pi, allowings us to host multiple plant systems on a single Raspberry Pi.
+
+Presentation Deck: https://docs.google.com/presentation/d/1f9j_4MfCJcArVAB2oSXKxE-scNMGOCwLVW0Y8tIulVQ/edit#slide=id.p 
